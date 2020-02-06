@@ -49,8 +49,7 @@ function removeFromCart(item) {
     if (Object.keys(cart[i]) === item){
       cart = [...cart.slice(0,i),...cart.slice[i+1]]
       return cart
-    }else{
-    continue}
+    }
   }
   return "That item is not in your cart."
 }
